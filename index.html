@@ -4,12 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header bg-secondary" id="home">
+        <nav>
+            <h3>MA Ba<span class="text-primary">ka</span>r</h3>
+
+            <ul >
+                <li ><a class="dark-2" href="#home">Home</a></li>
+                <li><a class="dark-2" href="#about">About</a></li>
+                <li><a class="dark-2" href="#contact">Contact</a></li>
+                <li><button class="btn-primary">Hire Me</button></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-gritings dark-2">Hi I'm</h4>
+                <h1 class="banner-title dark-1">Mohammad Abu Bakar</h1>
+                <p class="banner-subtitle">A passionate web developer with expertise in creating dynamic and responsive websites.</p>
+                <button class="btn-primary banner-btn">Download CV</button>
+                <button class="btn-primary banner-btn">contact</button>
+            </div>
+            <img class="banner-profile" src="images/ab.png" alt="">
 
     </header>
     <main>
+        <section class="about-me bg-secondary" id="about">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">I am a dedicated web developer with a strong foundation in both frontend and backend technologies. I specialize in creating user-friendly, efficient, and visually appealing websites that provide an excellent user experience.</p>
+            <div class="about-items">
+
+                <div class="about-item">
+                    <p class="item-title">Name</p>
+                    <p class="item-description">Mohammad Abu Bakar</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email</p>
+                    <p class="item-description">bakar75060@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Phone</p>
+                    <p class="item-description">+8801712345678</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Location</p>
+                    <p class="item-description">Chattogram, Bangladesh</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="what-i-do bg-secondary ">
+            <h3 class="section-title text-center">What I Do</h3>
+            <p class="section-description text-center">I specialize in creating user-friendly, efficient, and visually appealing websites that provide an excellent user experience.</p>
+
+            <div class="what-items">
+                
+                <div class="what-item">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="item-title ">JavaScript</h4>
+                    <p class="what-description ">I develop interactive and dynamic web applications using JavaScript and various frameworks.</p>
+                </div>
+                <div class="what-item">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="item-title">React</h4>
+                    <p class="what-description ">I create responsive and efficient user interfaces using React, ensuring a seamless user experience.</p>
+                </div>
+                <div class="what-item">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="item-title ">Node js</h4>
+                    <p class="what-description t">I build scalable and efficient backend services using Node.js, enabling smooth communication between the frontend and server.</p>
+                </div>
+                <div class="what-item">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="item-title ">MongoDB</h4>
+                    <p class="what-description ">I design and implement database solutions using MongoDB, ensuring data integrity and optimal performance.</p>
+                </div>
+
+            </div>
+            
+
+        </section>
 
     </main>
     <footer>

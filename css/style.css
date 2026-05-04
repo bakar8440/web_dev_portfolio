@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+/* shared styles */
+.text-primary{
+    color: #ffc400;
+}
+.text-center{
+    text-align: center;
+}
+.dark-1{
+    color: #555;
+}
+.dark-2{
+    color: #333;
+}
+.bg-secondary{
+    background-color: #e6e3e3;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background-color: #ffc400;
+    color: #201f1f;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 40px;
+}
+/* end shared styles */
+
+header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left top,right bottom;
+    backgrount-size: contain,cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #333;
+    margin-left: 70px;
+}
+
+header h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #ffc400;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+/* banner styles */
+header .banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    margin:0px 100px
+
+}
+
+.banner-content{
+    max-width: 400px;
+}
+
+header .banner .banner-gritings{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.banner .banner-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px;
+}
+.banner .banner-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    color: #555;
+}
+.banner .banner-btn{
+    margin: 20px;
+}
+
+.banner .banner-profile{
+    width: 500px;
+}
+/* banner styles end */
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about-me{
+    margin : 130px 150px;
+    border-radius:10px;
+    text-align:center;
+    
+}
+
+.about-me .about-items{
+    display:flex;
+    flex-direction: row;
+    font: 1em sans-serif;
+    justify-content: space-around;
+}
+
+.about-me .item-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-me .item-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+/* end about me */
+/* start what i do */
+.what-i-do{
+    margin: 130px 150px;
+}
+/* end what i do */
+
+.what-i-do .what-items{
+    display:flex;
+    flex-direction: row;
+    font: 1em sans-serif;
+    gap: 20px;
+    margin: 40px;
+    margin-bottom:130px;
+    justify-content: space-around;
+}
+
+.what-i-do .what-item{
+    padding: 30px;
+    border-radius:5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(46, 37, 37, 0.3);
+}
+
+.what-i-do .what-item .item-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.what-i-do .what-item .item-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
