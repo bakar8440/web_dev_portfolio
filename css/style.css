@@ -241,38 +241,72 @@ resume .resume-items .resume-item .item-title{
 }
 
 /* footer styles */
-.footer{
-    padding: 130px 200px;
+footer{
+    max-width: 1200px;
+    width: 100%;
+    padding: 80px 40px;
     display:flex;
-    text-align:center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .footer .social-icons{
     display:flex;
-    gap: 20px;
-    padding: 130px 150px;
-    margin-left: auto;
+    gap: 16px;
+    padding: 0;
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .footer .social-icons a{
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     font-size: 20px;
     color: #333;
-    transition: color 0.3s ease;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
 .footer .social-icons a:hover{
     color: #ffc400;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(255, 196, 0, 0.2);
 }
-
+footer .msg{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
 .footer form{
     display:flex;
-    gap: 10px;
+    gap: 12px;
     flex-direction: column;
+    width: min(100%, 420px);
 }
 
 .footer form input, .footer form textarea{
-    padding: 10px;
+    padding: 12px 14px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.footer form input:focus, .footer form textarea:focus{
+    border-color: #ffc400;
+    box-shadow: 0 0 0 3px rgba(255, 196, 0, 0.15);
+
 }
 
