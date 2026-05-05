@@ -201,3 +201,78 @@ main{
     font-weight: 400;
     color: #555;
 }
+/* start resume */
+
+.resume{
+    margin: 130px 150px;
+}
+.resume .resume-items{
+    display:flex;
+    flex-direction: row;
+    font: 1em sans-serif;
+    gap: 20px;
+    margin: 40px;
+    margin-bottom:70px;
+    justify-content: space-around;
+}
+.resume .resume-items h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume .resume-items .resume-item{
+    padding: 30px;
+    /* background-color: black; */
+    border-radius:5px;
+    padding: 15px;
+    height:80px;
+    box-shadow: 0 4px 8px rgba(46, 37, 37, 0.3);
+}
+resume .resume-items .resume-item .item-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume .resume-items .resume-item .item-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+/* footer styles */
+.footer{
+    padding: 130px 200px;
+    display:flex;
+    text-align:center;
+}
+
+.footer .social-icons{
+    display:flex;
+    gap: 20px;
+    padding: 130px 150px;
+    margin-left: auto;
+}
+.footer .social-icons a{
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.footer .social-icons a:hover{
+    color: #ffc400;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+.footer form{
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.footer form input, .footer form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
